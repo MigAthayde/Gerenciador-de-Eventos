@@ -1,0 +1,23 @@
+{
+  "name": "gerenciador-de-eventos",
+  "version": "1.0.0",
+  "description": "Gerenciador de Eventos em JavaScript para marcar Eventos em datas específicas, e gerenciá-los!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/http/script.js",
+    "dev": "nodemon src/http/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
