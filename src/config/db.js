@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 
+dotenv.config();
 // Conexão com MongoDB
-
 async function startDB(){
     try{
-        await mongoose.connect('mongodb://localhost:27017/');
+        await mongoose.connect(process.env.MONGO_URL);
         console.log('Conexão com MongoDB estabelecida com sucesso!');
     }
     catch(error){
