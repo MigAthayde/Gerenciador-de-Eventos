@@ -1,1 +1,1 @@
-const {Servicos} = require('../Models/servicos.js');
+const {Servicos: ServiceModel} = require('../Models/servicos.js');
